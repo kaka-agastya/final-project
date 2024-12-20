@@ -1,13 +1,11 @@
 import BackgroundEffect from "@/components/ui/BackgroundEffect";
-import Camp from "@/components/Camp";
-import Hero from "@/components/Hero";
+import Herop from "@/components/Herop";
 
 export default function Home() {
   return (
     <>
       <BackgroundEffect />
-      <Hero />
-      <Camp />
+      <Herop />
     </>
   );
 }
