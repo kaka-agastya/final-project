@@ -1,5 +1,6 @@
 import Herot from "@/components/Herot";
 import BackgroundEffect from "@/components/ui/BackgroundEffect";
+import FadeInOnScroll from "@/components/ui/FadeInOnScroll";
 import ProfileCard from "@/components/ui/ProfileCard";
 
 const profiles = [
@@ -74,8 +75,11 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center space-y-10">
       <BackgroundEffect/>
+      <FadeInOnScroll>
       <Herot />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      </FadeInOnScroll>
+      <FadeInOnScroll>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> 
         {profiles.map((profile, index) => (
           <ProfileCard
             key={index}
@@ -85,6 +89,7 @@ export default function Home() {
           />
         ))}
       </div>
+      </FadeInOnScroll>
     </div>
   );
 }

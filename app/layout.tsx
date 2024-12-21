@@ -2,12 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 export const metadata: Metadata = {
-  title: "Travel",
-  description: "Travel UI/UX App for Camping",
+  title: "Final Project Barunastra",
+  description: "Sponsorship proposal website",
 };
 
 export default function RootLayout({
@@ -17,12 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="scrollbar">
         <Navbar/>
-        <main className="relative 
-        overflow-hidden">
+        <main className="relative overflow-hidden">
         {children}
-        <SpeedInsights/>
         </main>
         <Footer/>
       </body>
