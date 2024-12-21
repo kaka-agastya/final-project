@@ -71,7 +71,7 @@ const Camp = () => {
         <div className="bg-[#e95e27] p-8 lg:max-w-[500px] xl:max-w-[734px]
         xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl"> 
         <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
-          <strong>Feeling Lost</strong> and Not Knowing the Way ?
+          <strong>Wowowoo</strong> and Not Knowing the Way ?
         </h2>
         <p className="regular-14 xl:regular-16 mt-5 text-white">
           Starting from the anxiety of the climbers when visiting a new climbing location, 

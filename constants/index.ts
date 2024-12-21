@@ -2,7 +2,7 @@
 export const NAV_LINKS = [
     { href: '/', key: 'home', label: 'Home' },
     { href: '/our-team', key: 'how_hilink_work', label: 'Our Team' },
-    { href: '/our-robot', key: 'services', label: 'Our Robot' },
+    { href: '/our-boat', key: 'services', label: 'Our Boat' },
     { href: '/pricing', key: 'pricing ', label: 'Pricing ' },
     { href: '/contact', key: 'contact_us', label: 'Contact Us' },
   ];

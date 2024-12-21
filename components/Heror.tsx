@@ -8,7 +8,7 @@ const Hero = () => {
     >
       <div className="relative z-20 flex flex-1 flex-col items-center text-center xl:w-1/2">
         <h1 className="bold-52 lg:bold-88 text-white">
-          Our Robot
+          Our Boat
         </h1>        
         <p className="regular-16 mt-6 text-gray-100 max-w-xl pb-6">
         Barunastra ITS adalah tim inovasi teknologi maritim dari Institut Teknologi Sepuluh Nopember 
