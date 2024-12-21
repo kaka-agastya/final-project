@@ -1,5 +1,5 @@
 import BackgroundEffect from "@/components/ui/BackgroundEffect";
-import Heror from "@/components/Heror";
+import Heroboat from "@/components/Heroboat";
 import FadeInOnScroll from "@/components/ui/FadeInOnScroll";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <BackgroundEffect />
       <FadeInOnScroll>
-      <Heror />
+      <Heroboat />
       </FadeInOnScroll>
     </>
   );

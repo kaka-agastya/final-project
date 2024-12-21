@@ -1,5 +1,5 @@
 import BackgroundEffect from "@/components/ui/BackgroundEffect";
-import Herop from "@/components/Herop";
+import Heropricing from "@/components/Heropricing";
 import FadeInOnScroll from "@/components/ui/FadeInOnScroll";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <BackgroundEffect />
       <FadeInOnScroll>
-      <Herop />
+      <Heropricing />
       </FadeInOnScroll>
     </>
   );
