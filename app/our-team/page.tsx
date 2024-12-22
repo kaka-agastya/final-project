@@ -1,7 +1,8 @@
-import Heroteam from "@/components/Heroteam";
-import BackgroundEffect from "@/components/ui/BackgroundEffect";
-import FadeInOnScroll from "@/components/ui/FadeInOnScroll";
-import ProfileCard from "@/components/ui/ProfileCard";
+import React from 'react';
+import BackgroundEffect from '@/components/ui/BackgroundEffect';
+import FadeInOnScroll from '@/components/ui/FadeInOnScroll';
+import Heroteam from '@/components/Heroteam';
+import ProfileCard from '@/components/ui/ProfileCard';
 
 const profiles = [
   {
@@ -74,21 +75,21 @@ const profiles = [
 export default function Home() {
   return (
     <div className="flex flex-col items-center space-y-10">
-      <BackgroundEffect/>
+      <BackgroundEffect />
       <FadeInOnScroll>
-      <Heroteam />
+        <Heroteam />
       </FadeInOnScroll>
       <FadeInOnScroll>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> 
-        {profiles.map((profile, index) => (
-          <ProfileCard
-            key={index}
-            name={profile.name}
-            role={profile.role}
-            img={profile.img}
-          />
-        ))}
-      </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {profiles.map((profile, index) => (
+            <ProfileCard
+              key={index}
+              name={profile.name}
+              role={profile.role}
+              img={profile.img}
+            />
+          ))}
+        </div>
       </FadeInOnScroll>
     </div>
   );
