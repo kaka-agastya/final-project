@@ -77,10 +77,10 @@ export const NAV_LINKS = [
   export const SOCIALS = {
     title: 'Social',
     links: [
-      '/facebook.svg',
-      '/instagram.svg',
-      '/twitter.svg',
-      '/youtube.svg',
-      '/wordpress.svg',
+      { src: '/facebook.svg', href: 'https://www.facebook.com' },
+      { src: '/instagram.svg', href: 'https://www.instagram.com/barunastra_its/' },
+      { src: '/twitter.svg', href: 'https://www.twitter.com' },
+      { src: '/youtube.svg', href: 'https://www.youtube.com/channel/UCMbzwVBWBJJ8JiNb8oktbPA' },
+      { src: '/wordpress.svg', href: 'https://www.wordpress.com' },
     ],
   };

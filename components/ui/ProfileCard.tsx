@@ -8,7 +8,7 @@ interface ProfileCardProps {
 
 const ProfileCard: React.FC<ProfileCardProps> = ({ name, role, img }) => {
   return (
-    <div className="w-full max-w-xs px-6 py-6 text-center rounded-lg border-2 border-gray-700">
+    <div className="w-full max-w-xs px-6 py-6 text-center rounded-lg border-2 border-gray-700 mb-5">
       <div className="space-y-4 xl:space-y-6">
         <img
           className="mx-auto rounded-full h-36 w-36"
