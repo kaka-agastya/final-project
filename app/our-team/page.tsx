@@ -6,9 +6,9 @@ import ProfileCard from '@/components/ui/ProfileCard';
 import Divider from '@/components/ui/Divider';
 
 const profiles = [
-  { name: "Gregorius Natanael Anggalaksmana", role: "Sponext", img: "/user.png", division: "NTC" },
-  { name: "Fajriah Khairunnisa", role: "Finad", img: "/user.png", division: "NTC" },
-  { name: "Kusumastuti Windria", role: "Sosbrand", img: "/user.png", division: "NTC" },
+  { name: "Gregorius Natanael Anggalaksmana", role: "Sponsorship & External", img: "/user.png", division: "NTC" },
+  { name: "Fajriah Khairunnisa", role: "Finance & Administration", img: "/user.png", division: "NTC" },
+  { name: "Kusumastuti Windria", role: "Social Branding", img: "/user.png", division: "NTC" },
   { name: "Muhammad Gian Yudha Prawira", role: "Microcontroller", img: "/user.png", division: "EPR" },
   { name: "Fatharanni Faza", role: "Electrical Design", img: "/user.png", division: "EPR" },
   { name: "Muhammad Fazayyan Razzan Izzuddin", role: "Electrical Design", img: "/user.png", division: "EPR" },

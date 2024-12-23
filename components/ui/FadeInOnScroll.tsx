@@ -13,7 +13,7 @@ interface FadeInOnScrollProps {
 const FadeInOnScroll: React.FC<FadeInOnScrollProps> = ({
   children,
   className = "",
-  threshold = 0.2,
+  threshold = 0.1,
   duration = 0.5,
 }) => {
   const controls = useAnimation();

@@ -10,7 +10,7 @@ const Hero = () => {
         <h1 className="bold-52 lg:bold-88 text-white">
           Pricing
         </h1>
-        <p className="regular-16 mt-6 text-gray-100 max-w-xl pb-6">
+        <p className="regular-16 mt-6 text-gray-100 max-w-xl pb-32">
         Barunastra ITS is a maritime technology innovation team from Institut Teknologi Sepuluh Nopember 
         that has brought Indonesia's name to the international arena. We continue to strive to be at the forefront 
         of Autonomous Surface Vehicle (ASV) development</p>
