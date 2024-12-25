@@ -8,18 +8,21 @@ interface ProfileCardProps {
 
 const ProfileCard: React.FC<ProfileCardProps> = ({ name, role, img }) => {
   return (
-    <div className="w-full max-w-xs px-6 py-6 text-center rounded-lg border-2 border-gray-700 mb-5">
-      <div className="space-y-4 xl:space-y-6">
+    <div className="w-full max-w-xs px-6 py-6 text-center rounded-lg border-2 
+    border-blue-70 mb-5 bg-dark-blue relative mt-12"> {/* Menambahkan kelas mt-10 untuk margin atas */}
+      {/* Gambar dengan posisi muncul ke atas */}
+      <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
         <img
-          className="mx-auto rounded-full h-36 w-36"
+          className="rounded-full h-50 w-50"
           src={img}
           alt={`${name} avatar`}
         />
+      </div>
+      {/* Konten kartu */}
+      <div className="pt-16 bg-[#051227] p-4 rounded-lg shadow-lg">
         <div className="space-y-2">
-          <div className="flex justify-center items-center flex-col space-y-3 text-lg font-medium leading-6">
-            <h3 className="text-white bold-20">{name}</h3>
-            <p className="text-gray-500">{role}</p>
-          </div>
+          <h3 className="text-white text-lg font-bold">{name}</h3>
+          <p className="text-gray-500">{role}</p>
         </div>
       </div>
     </div>

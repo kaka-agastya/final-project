@@ -77,10 +77,10 @@ export const NAV_LINKS = [
   export const SOCIALS = {
     title: 'Social',
     links: [
-      { src: '/facebook.svg', href: 'https://www.facebook.com' },
+      { src: '/tiktok.svg', href: 'https://www.tiktok.com/@barunastra.its' },
       { src: '/instagram.svg', href: 'https://www.instagram.com/barunastra_its/' },
-      { src: '/twitter.svg', href: 'https://www.twitter.com' },
+      { src: '/linkedin.svg', href: 'https://www.linkedin.com/company/team-barunastra-its/posts/?feedView=all' },
       { src: '/youtube.svg', href: 'https://www.youtube.com/channel/UCMbzwVBWBJJ8JiNb8oktbPA' },
-      { src: '/wordpress.svg', href: 'https://www.wordpress.com' },
+      { src: '/whatsapp.svg', href: 'https://api.whatsapp.com/send/?phone=6285141177831&text&type=phone_number&app_absent=0' },
     ],
   };
