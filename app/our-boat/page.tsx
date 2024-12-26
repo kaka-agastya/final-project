@@ -6,9 +6,7 @@ export default function Home() {
   return (
     <>
       <BackgroundEffect />
-      <FadeInOnScroll>
       <Heroboat />
-      </FadeInOnScroll>
     </>
   );
 }

@@ -2,20 +2,22 @@ import BackgroundEffect from "@/components/ui/BackgroundEffect";
 import Heropricing from "@/components/Heropricing";
 import FadeInOnScroll from "@/components/ui/FadeInOnScroll";
 import SponsorshipPackages from "@/components/ui/SponsorshipPackages";
-import Camp from "@/components/Camp";
+import SectionOneSponsor from "@/components/SectionOneSponsor";
+import { Tablee } from "@/components/Tablee";
+import SectionTwoSponsor from "@/components/SectionTwoSponsor";
 
 export default function Home() {
   return (
     <>
       <BackgroundEffect />
-      <FadeInOnScroll>
       <Heropricing />
-      </FadeInOnScroll>
       <FadeInOnScroll>
+        <SectionOneSponsor/>
         <SponsorshipPackages />
       </FadeInOnScroll>
       <FadeInOnScroll>
-        <Camp/>
+        <SectionTwoSponsor />
+        <Tablee />
       </FadeInOnScroll>
     </>
   );

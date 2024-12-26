@@ -16,18 +16,19 @@ const SponsorshipPackage: React.FC<SponsorshipPackageProps> = ({
   buttonColor,
 }) => {
   return (
-    <div className="w-full max-w-xs p-6 text-left py-8 px-8 rounded-lg bg-white shadow-md hover:shadow-2xl hover:shadow-blue-500 transition-shadow duration-300">
+    <div className="bg-white rounded-t-xl rounded-b-xl mt-8 mb-8 p-8 shadow-lg">
+    <div className="w-full max-w-xl p-4 text-left py-8 px-8 rounded-lg bg-[#021639]">
       {/* Title */}
-      <h3 className="text-gray-800 text-xl font-bold mb-4">{title}</h3>
+      <h3 className="text-white text-xl font-bold mb-4">{title}</h3>
 
       {/* Price Section */}
       <div className="mb-6">
-        <p className="text-gray-800 text-3xl font-extrabold">{price}</p>
-        <p className="text-gray-500 text-sm mt-1">for {hours}</p>
+        <p className="text-white text-3xl font-extrabold">{price}</p>
+        <p className="text-white text-sm mt-1">for {hours}</p>
       </div>
 
       {/* Additional Price */}
-      <p className="text-gray-500 text-sm mb-4">Additional price: {additionalPrice}</p>
+      <p className="text-white text-sm mb-4">Additional price: {additionalPrice}</p>
 
       {/* Button */}
       <button
@@ -35,6 +36,7 @@ const SponsorshipPackage: React.FC<SponsorshipPackageProps> = ({
       >
         Select Package
       </button>
+    </div>
     </div>
   );
 };

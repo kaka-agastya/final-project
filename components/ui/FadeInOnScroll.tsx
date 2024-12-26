@@ -24,7 +24,7 @@ const FadeInOnScroll: React.FC<FadeInOnScrollProps> = ({
   });
 
   useEffect(() => {
-    // Memulai animasi hanya ketika elemen masuk ke dalam viewport
+    
     if (inView) {
       controls.start("visible");
     }
@@ -33,7 +33,7 @@ const FadeInOnScroll: React.FC<FadeInOnScrollProps> = ({
   return (
     <motion.div
       ref={ref}
-      data-inview={inView ? "true" : "false"} // Untuk fallback CSS
+      data-inview={inView ? "true" : "false"} 
       initial="hidden"
       animate={controls}
       variants={{
@@ -41,7 +41,7 @@ const FadeInOnScroll: React.FC<FadeInOnScrollProps> = ({
         hidden: { opacity: 0, transform: "translateY(20px)" },
       }}
       transition={{ duration }}
-      className={`${className} fade-in-scroll`} // Tambahkan kelas CSS untuk fallback
+      className={`${className} fade-in-scroll`} 
     >
       {children}
     </motion.div>

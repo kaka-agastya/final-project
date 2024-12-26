@@ -4,7 +4,7 @@ export const NAV_LINKS = [
     { href: '/our-team', key: 'how_hilink_work', label: 'Our Team' },
     { href: '/our-boat', key: 'services', label: 'Our Boat' },
     { href: '/pricing', key: 'pricing ', label: 'Pricing ' },
-    { href: '/contact', key: 'contact_us', label: 'Contact Us' },
+    { href: '', key: 'contact_us', label: 'Contact Us' },
   ];
   
   // CAMP SECTION
