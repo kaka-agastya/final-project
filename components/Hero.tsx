@@ -12,10 +12,11 @@ const Hero = () => {
         >
           Sponsorship Proposal 2024/2025
         </h3>
-        <h1 className="regular-16 mt-6 text-gray-100 max-w-xl pb-6">
-        Barunastra ITS is a maritime technology innovation team from Institut Teknologi Sepuluh Nopember 
-        that has brought Indonesia's name to the international arena. We continue to strive to be at the forefront 
-        of Autonomous Surface Vehicle (ASV) development </h1>
+        <p className="regular-16 mt-6 text-gray-100 max-w-xl pb-6">
+          Barunastra ITS is a maritime technology innovation team from Institut Teknologi Sepuluh Nopember 
+          that has brought Indonesia's name to the international arena.
+          We continue to strive to be at the forefront of Autonomous Surface Vehicle (ASV) development.
+        </p>
       </div>
     </section>
   );

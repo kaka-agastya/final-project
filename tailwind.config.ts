@@ -39,7 +39,7 @@ module.exports = {
 		  'bg-img-3': "url('/coba1.png')",
 		  'bg-img-4': "url('/coba2.jpg')",
 		  'bg-img-5': "url('/gambar.webp')",
-		  'bg-img-6': "url('/kapal.jpeg')",
+		  'bg-img-6': "url('/kapal.webp')",
 		  'feature-bg': "url('/feature-bg.png')",
 		  pattern: "url('/pattern.png')",
 		  'pattern-2': "url('/pattern-bg.png')",

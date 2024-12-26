@@ -5,23 +5,24 @@ interface CampProps {
   backgroundImage: string;
   title: string;
   subtitle: string;
-  peopleJoined: string;
 }
 
-const CampSite = ({backgroundImage, title, subtitle, peopleJoined} :
+const CampSite = ({backgroundImage, title, subtitle} :
   CampProps) => {
   return (
     <div className={`h-full w-full min-w-[1100px] ${backgroundImage}
-    bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
+    bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl loading="eager"`}>
       <div className="flex h-full flex-col items-start justify-between p-6
       lg:px-20 lg:py-10  ">
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-[#e95e27] p-4">
             <Image 
-            src="/folded-map.svg"
+            src="/boat.svg"
             alt="map"
             width={28}
             height={28}
+            loading="eager"
+            className="invert"
             />
           </div>
           <div className="flex flex-col gap-1">
@@ -29,21 +30,6 @@ const CampSite = ({backgroundImage, title, subtitle, peopleJoined} :
             <p className="regular-14 text-white">{subtitle}</p>
           </div>
         </div>
-        <div className="flexCenter gap-6">
-          <span className="flex -space-x-4 overflow-hidden">
-            {PEOPLE_URL.map((url) =>(
-              <Image
-              className="inline-block h-10 w-10 rounded-full"
-              src={url}
-              key={url}
-              alt="person"
-              width={52}
-              height={52}/>
-            ))}
-          </span>
-          <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
-        </div>
-
       </div>
     </div>
   )
@@ -56,22 +42,20 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start
       justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite
-        backgroundImage="bg-bg-img-5"
-        title="Banyuwangi Camp"
-        subtitle="Malang, Surabaya"
-        peopleJoined="50+ Joined" />
+        backgroundImage="bg-bg-img-6"
+        title="Proteus Boat"
+        subtitle="East Java, Surabaya"/>
         <CampSite
         backgroundImage="bg-bg-img-6"
-        title="Mountain View Camp"
-        subtitle="Somewhere in the Wilderness"
-        peopleJoined="50+ Joined"/>
+        title="Proteus Boat 2"
+        subtitle="East Java, Surabaya"/>
       </div>
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="bg-[#e95e27] p-8 lg:max-w-[500px] xl:max-w-[734px]
         xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl"> 
-        <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
-          <strong>Wowowoo</strong> and Not Knowing the Way ?
+        <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white text-bold">
+          Barunastra's Fun Fact !!!
         </h2>
         <p className="regular-14 xl:regular-16 mt-5 text-white">
           Starting from the anxiety of the climbers when visiting a new climbing location, 
@@ -83,7 +67,7 @@ const Camp = () => {
         alt="camp-2"
         width={186}
         height={219}
-        className="camp-quote"/>
+        className="camp-quote" loading="lazy"/>
         </div>
       </div>
     </section>

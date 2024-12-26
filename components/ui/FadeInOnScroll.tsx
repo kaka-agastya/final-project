@@ -1,4 +1,5 @@
-"use client"
+"use client";
+
 import React, { ReactNode, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -18,29 +19,29 @@ const FadeInOnScroll: React.FC<FadeInOnScrollProps> = ({
 }) => {
   const controls = useAnimation();
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold,
   });
 
   useEffect(() => {
+    // Memulai animasi hanya ketika elemen masuk ke dalam viewport
     if (inView) {
       controls.start("visible");
-    } else {
-      controls.start("hidden");
     }
   }, [controls, inView]);
 
   return (
     <motion.div
       ref={ref}
+      data-inview={inView ? "true" : "false"} // Untuk fallback CSS
       initial="hidden"
       animate={controls}
       variants={{
-        visible: { opacity: 1, y: 0 },
-        hidden: { opacity: 0, y: 50 },
+        visible: { opacity: 1, transform: "translateY(0)" },
+        hidden: { opacity: 0, transform: "translateY(20px)" },
       }}
       transition={{ duration }}
-      className={className}
+      className={`${className} fade-in-scroll`} // Tambahkan kelas CSS untuk fallback
     >
       {children}
     </motion.div>
