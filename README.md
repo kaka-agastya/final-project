@@ -32,7 +32,7 @@
 ![alt text](<public/codestructure.png>)
 
 #### c. Features
-##### -> Dynamic Project Showcase: A responsive gallery of team projects
+##### -> Dynamic Project Showcase: A responsive gallery of team projectss
 ##### -> Interactive Animations: Animated navigation bar, hover on icons
 ##### -> Contact Information: A dedicated section with interactive buttons linking to email and social media profiles.
 
