@@ -58,9 +58,9 @@ const Camp = () => {
           Barunastra's Fun Fact !!!
         </h2>
         <p className="regular-14 xl:regular-16 mt-5 text-white">
-          Starting from the anxiety of the climbers when visiting a new climbing location, 
-          the possibility of getting lost is very large. That's why we are here for 
-          those of you who want to start an adventure
+        We are Barunastra ITS, a groundbreaking team redefining unmanned vessel technology since 2012. 
+        Inspired by "Baruna," the Sea God, and "Astra," a weapon, we blend strength and innovation to 
+        symbolizes unstoppable strength and ingenuity on global stages.
         </p>
         <Image
         src="/quote.svg"
