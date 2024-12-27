@@ -30,3 +30,15 @@
 #### b. Code Structure
 ##### Folder Structure :
 ![alt text](<public/codestructure.png>)
+
+#### c. Features
+##### -> Dynamic Project Showcase: A responsive gallery of team projects
+##### -> Interactive Animations: Animated navigation bar, hover on icons
+##### -> Contact Information: A dedicated section with interactive buttons linking to email and social media profiles.
+
+#### d. Performance Optimization
+##### -> Lazy Loading: Implemented for images and other media to improve page load times.
+##### -> Image Compression: Optimized images to reduce file size and improve page load times.
+##### -> CSS Grid: Used for layout, improving performance and responsiveness.
+##### -> Framer Motion animations are optimized to minimize layout shift and enhance performance.
+
