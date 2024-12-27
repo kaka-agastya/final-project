@@ -14,7 +14,7 @@ interface Profile {
 
 // Data profil dengan tipe eksplisit
 const profiles: Profile[] = [
-  { name: "M. Fakhri Tuffaahatii", role: "Mechanical Design", img: "/kapal.webp", division: "TEAM LEADER" },
+  { name: "VISTA MARA", role: "Our Boat", img: "/boatt.webp", division: "TEAM LEADER" },
 ];
 
 // Definisikan array divisi
