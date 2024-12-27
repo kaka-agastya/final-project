@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 import SponsorshipPackage from "./SponsorshipPackage";
 
 const packages = [
-  { title: "Crew Deck", price: "$1250", hours: "1 months", additionalPrice: "-", buttonColor: "bg-gray-500" },
-  { title: "Deck Officer", price: "$3000", hours: "1 months", additionalPrice: "-", buttonColor: "bg-gray-700" },
-  { title: "Chief Officer", price: "$5000", hours: "1 months", additionalPrice: "-", buttonColor: "bg-yellow-500" },
-  { title: "Staff Captain", price: "$10000", hours: "1 months", additionalPrice: "-", buttonColor: "bg-blue-500" },
-  { title: "Captain", price: "$15000", hours: "1 months", additionalPrice: "-", buttonColor: "bg-purple-500" },
+  { title: "Crew Deck", price: "$1230", hours: "1 months", additionalPrice: "-", buttonColor: "bg-gray-500" },
+  { title: "Deck Officer", price: "$2950", hours: "1 months", additionalPrice: "-", buttonColor: "bg-gray-700" },
+  { title: "Chief Officer", price: "$4890", hours: "1 months", additionalPrice: "-", buttonColor: "bg-yellow-500" },
+  { title: "Staff Captain", price: "$9780", hours: "1 months", additionalPrice: "-", buttonColor: "bg-blue-500" },
+  { title: "Captain", price: "$14640", hours: "1 months", additionalPrice: "-", buttonColor: "bg-purple-500" },
 ];
 
 const SponsorshipPackages: React.FC = () => {

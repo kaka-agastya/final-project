@@ -29,7 +29,7 @@ const profiles: Profile[] = [
   { name: "Fazlee Mawla Nasution", role: "Mechanical Production", img: "/13.webp", division: "MEC", instagram: "https://www.instagram.com/fazleemn/", linkedin: "https://www.linkedin.com/in/fazlee-nasution-7a7488324/" },
   { name: "Rizqi Setya Cahyadi", role: "Mechanical Design", img: "/5.webp", division: "MEC", instagram: "https://www.instagram.com/setya_eqi31/", linkedin: "https://www.linkedin.com/in/rizqi-setya-cahyadi-891276312/" },
   { name: "M. Fakhri Tuffaahatii", role: "Mechanical Design", img: "/12.webp", division: "TEAM LEADER", instagram: "https://www.instagram.com/tuffaahatii/", linkedin: "https://www.linkedin.com/in/m-fakhri-tuffaahatii-630396327/" },
-  { name: "Dr. Rudy Dikairono, S.T., M.T, M.Sc.", role: "Mechanical Design", img: "/user.png", division: "ADVISOR" },
+  { name: "M. Lukman Hakim, ST, MT", role: "Team Advisor", img: "/16.webp", division: "ADVISOR", instagram: "https://www.instagram.com/lukmanhakim_/", linkedin: "https://www.linkedin.com/in/lukman-hakim-3b0b0b1b/" },
   { name: "M. Caesar Yudhistira P.", role: "Mechanical Design", img: "/4.webp", division: "MEC", instagram: "https://www.instagram.com/caesarrr06/", linkedin: "https://www.linkedin.com/in/mcaesaryudhistiraprabowo/" },
 ];
 
